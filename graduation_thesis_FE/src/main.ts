@@ -1,14 +1,13 @@
-import './assets/main.css'
+import './assets/main.css';
+import 'vuetify/styles';
+import '@vuepic/vue-datepicker/dist/main.css';
+import { createApp } from 'vue';
+import App from './App.vue';
+import globalPlugins from './plugins';
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+const app = createApp(App);
 
-import App from './App.vue'
-import router from './router'
+/* Setup libs for app */
+globalPlugins(app);
 
-const app = createApp(App)
-
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
+app.mount('#app');
