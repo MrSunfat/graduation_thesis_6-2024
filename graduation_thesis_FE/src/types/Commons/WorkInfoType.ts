@@ -1,0 +1,3 @@
+type WorkInfoType = {
+    id: number;
+};

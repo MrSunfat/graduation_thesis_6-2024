@@ -1,4 +1,5 @@
 import { useCounterStore } from './counter';
 import { useLoadingStore } from './loading';
+import { useAuthStore } from './authStore';
 
-export { useCounterStore, useLoadingStore };
+export { useCounterStore, useAuthStore, useLoadingStore };

@@ -50,7 +50,7 @@ export class BaseApi {
         };
     }
 
-    async getById(id: number) {
+    async getById(id: string) {
         let res = this.get(this.API_URL + `/${id}`);
         return res;
     }
@@ -75,7 +75,7 @@ export class BaseApi {
         }
     }
 
-    async post(url: string, param: object) {
+    async post(url: string, param?: object) {
         try {
             let response = await axios.post(url, param, this.config);
             return this.handleResponse(response);
@@ -84,7 +84,7 @@ export class BaseApi {
         }
     }
 
-    async put(url: string, param: object) {
+    async put(url: string, param?: object) {
         try {
             let response = await axios.put(url, param, this.config);
             return this.handleResponse(response);

@@ -1,0 +1,21 @@
+export default [
+    'Lập trình',
+    'Kiểm thử chương trình',
+    'Thiết kế cơ sở dữ liệu',
+    'Thiết kế đồ hoạ',
+    'Tin học văn phòng',
+    'Thiết kế hệ thống',
+    'Lập kế hoạch',
+    'Giao tiếp',
+    'Làm việc nhóm',
+    'Giải quyết vấn đề',
+    'Thuyết trình',
+    'Phản biện',
+    'Thuyết phục',
+    'Đàm phán',
+    'Phân tích',
+    'Quản lý tài chính',
+    'Sửa chữa',
+    'Lắp đặt vận hành',
+    'Khác'
+]
